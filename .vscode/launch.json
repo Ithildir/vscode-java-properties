@@ -1,0 +1,12 @@
+{
+	"configurations": [
+		{
+			"args": ["--extensionDevelopmentPath=${workspaceRoot}" ],
+			"name": "Launch Extension",
+			"request": "launch",
+			"runtimeExecutable": "${execPath}",
+			"type": "extensionHost"
+		}
+	],
+	"version": "0.1.0"
+}

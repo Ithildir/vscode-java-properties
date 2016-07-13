@@ -1,0 +1,35 @@
+{
+	"bugs": {
+		"url": "https://github.com/ithildir/vscode-java-properties/issues"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "java-properties",
+			"aliases": ["Java Properties", "java-properties"],
+			"extensions": [".bnd", ".properties"],
+			"configuration": "./java-properties.configuration.json"
+		}],
+		"grammars": [{
+			"language": "java-properties",
+			"scopeName": "source.java-properties",
+			"path": "./syntaxes/java-properties.tmLanguage"
+		}]
+	},
+	"description": "Java Properties Syntax Highlighting",
+	"displayName": "Java Properties",
+	"engines": {
+		"vscode": "^1.0.0"
+	},
+	"homepage": "https://github.com/ithildir/vscode-java-properties/blob/master/README.md",
+	"license": "SEE LICENSE IN LICENSE",
+	"name": "java-properties",
+	"publisher": "ithildir",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ithildir/vscode-java-properties.git"
+	},
+	"version": "0.0.1"
+}
